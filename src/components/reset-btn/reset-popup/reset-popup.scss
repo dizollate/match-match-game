@@ -1,0 +1,21 @@
+.reset-popup {
+  display: none;
+  width: 360px;
+  height: 115px;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.6);
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  z-index: 10;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.reset-popup.block {
+  display: flex;
+}

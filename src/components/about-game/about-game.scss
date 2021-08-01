@@ -1,0 +1,13 @@
+.about-game { 
+  display: none;
+  width: 1000px;
+  height: 800px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+
+.about-game.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

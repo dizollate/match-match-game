@@ -1,0 +1,15 @@
+.new-game {
+  display: none;
+  width: 55px;
+  height: 36px;
+  background-color: rgba(33, 150, 243, 1);
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+  color: white;
+  z-index: 11;
+}
+
+.new-game.block {
+  display: block;
+}
